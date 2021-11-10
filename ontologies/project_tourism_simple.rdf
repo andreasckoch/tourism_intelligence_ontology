@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism"
+     xml:base="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#consists_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#consists_of">
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#contains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#contains">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#apartments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#apartments">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#average_duration_of_stay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#average_duration_of_stay">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#category">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_origin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_origin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_residence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_residence">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments_on_weekends -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments_on_weekends">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_hotel_rooms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_hotel_rooms">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels_on_weekends -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels_on_weekends">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places_on_weekends -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places_on_weekends">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_rural_rooms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_rural_rooms">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#establishments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#establishments">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#month">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#number_of_occupied_parcels -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#number_of_occupied_parcels">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#overnight_stays -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#overnight_stays">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#parcels -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#parcels">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#personel_employed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#personel_employed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#places -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#places">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#province -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#province">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#region">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#rooms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#rooms">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_point -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_point">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#tourists -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#tourists">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#year">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+    
+
+
+    <!-- http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Country_Of_Origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Province"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#apartments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#average_duration_of_stay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#category"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_origin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_residence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments_on_weekends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_hotel_rooms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels_on_weekends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places_on_weekends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_rural_rooms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#establishments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#month"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#number_of_occupied_parcels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#overnight_stays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#parcels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#personel_employed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#places"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#province"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#region"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#rooms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#tourists"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#year"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

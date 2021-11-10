@@ -1,0 +1,1132 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex", "http://www.w3.org/2002/07/owl", "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex#Hotels_Statistics",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotels_Statistics"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Month",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Month"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Apartments_Statistics",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Touristic_Apartments_Statistics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "30", "4", "49", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Point",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Touristic_Point"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex#Hostels_Statistics",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism_complex",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hostels_Statistics"
+    },
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Region",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region"
+    },
+    "subClasses" : [ "12" ],
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Rural_Touristic_Apartments_Statistics",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rural_Touristic_Apartments_Statistics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Year",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Year"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Camping_Sites_Statistics",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Camping_Sites_Statistics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "instances" : 0,
+    "union" : [ "30", "25", "4", "49", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "52"
+  }, {
+    "instances" : 0,
+    "union" : [ "30", "25", "4", "49", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "51"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "30", "4", "49", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "86"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "30", "4", "49", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#Touristic_Zone",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Touristic_Zone"
+    },
+    "subClasses" : [ "64" ],
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "11" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_places"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#year_contains",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "year_contains"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "7",
+    "attributes" : [ "object", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#region_contains",
+    "inverse" : "13",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "region_contains"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "11",
+    "attributes" : [ "object", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "1",
+    "subproperty" : [ "10", "16", "17", "13", "18", "19", "6", "20", "21", "22", "23" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "9",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "4",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "25",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "9",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "9",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#year",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "year"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "34",
+    "attributes" : [ "object", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_places_on_weekends",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_places_on_weekends"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#places",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "places"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone_is_located_in",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "touristic_zone_is_located_in"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "range" : "9",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "11",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "11",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "11",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "11",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#category",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "category"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "46"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "5",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#region",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "region"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "51",
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "touristic_zone"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "52",
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#month_belongs_to",
+    "inverse" : "6",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "month_belongs_to"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "5",
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments_on_weekends",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_apartments_on_weekends"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_zone_contains",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "touristic_zone_contains"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "12",
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#establishments",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "establishments"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#province",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "province"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_origin",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "country_of_origin"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#parcels",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "parcels"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#apartments",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "apartments"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_point_is_located_in",
+    "inverse" : "17",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "touristic_point_is_located_in"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "64",
+    "attributes" : [ "object", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#tourists",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "tourists"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#country_of_residence",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "country_of_residence"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_parcels"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_hotel_rooms",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_hotel_rooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#rooms",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "rooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#overnight_stays",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "overnight_stays"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "range" : "12",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "49",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "9",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "49",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "49",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "49",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "11",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "5",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#personel_employed",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "personel_employed"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#average_duration_of_stay",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "average_duration_of_stay"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "97"
+  }, {
+    "range" : "5",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "11",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#touristic_point",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "touristic_point"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "87",
+    "attributes" : [ "object", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_apartments",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_apartments"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_parcels_on_weekends",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_parcels_on_weekends"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#number_of_occupied_parcels",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "number_of_occupied_parcels"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#degree_of_occupied_rural_rooms",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "degree_of_occupied_rural_rooms"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism#month",
+    "baseIri" : "http://www.semanticweb.org/andreas/ontologies/2021/9/project_tourism",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "month"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "86",
+    "attributes" : [ "object", "external" ],
+    "id" : "23"
+  } ]
+}

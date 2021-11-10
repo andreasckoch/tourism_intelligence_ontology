@@ -1,0 +1,95 @@
+## Category
+Individual: @A*(mm:prepend("Category_"))
+Types: Category
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	category @D*
+Facts: 	country_of_residence @E*
+Facts: 	tourists @F*(xsd:integer)
+Facts: 	overnight_stays @G*(xsd:integer)
+Facts: 	establishments @H*(xsd:integer)
+Facts: 	parcels @I*(xsd:integer)
+Facts: 	places @J*(xsd:integer)
+Facts: 	degree_of_occupied_parcels @K*(xsd:float)
+Facts: 	degree_of_occupied_parcels_on_weekends @L*(xsd:float)
+Facts: 	number_of_occupied_parcels @M*(xsd:integer)
+Facts: 	personel_employed @N*(xsd:integer)
+
+
+## Region (CCAA)
+Individual: @A*(mm:prepend("Region_"))
+Types: Region
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	region @D*
+Facts: 	country_of_residence @E*
+Facts: 	tourists @F*(xsd:integer)
+Facts: 	overnight_stays @G*(xsd:integer)
+Facts: 	establishments @H*(xsd:integer)
+Facts: 	parcels @I*(xsd:integer)
+Facts: 	places @J*(xsd:integer)
+Facts: 	degree_of_occupied_parcels @K*(xsd:float)
+Facts: 	degree_of_occupied_parcels_on_weekends @L*(xsd:float)
+Facts: 	number_of_occupied_parcels @M*(xsd:integer)
+Facts: 	personel_employed @N*(xsd:integer)
+
+
+## Country of Origin
+Individual: @A*(mm:prepend("Country_of_Origin_"))
+Types: Country_of_Origin
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	country_of_origin @D*
+Facts: 	country_of_residence @E*
+Facts: 	tourists @F*(xsd:integer)
+Facts: 	overnight_stays @G*(xsd:integer)
+
+
+## Province
+Individual: @A*(mm:prepend("Province_"))
+Types: Province
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	country_of_residence @D*
+Facts: 	tourists @E*(xsd:integer)
+Facts: 	overnight_stays @F*(xsd:integer)
+Facts: 	establishments @G*(xsd:integer)
+Facts: 	parcels @H*(xsd:integer)
+Facts: 	degree_of_occupied_parcels @I*(xsd:float)
+Facts: 	personel_employed @J*(xsd:integer)
+
+
+## Touristic Point
+Individual: @A*(mm:prepend("Touristic_Point_"))
+Types: Touristic_Point
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	touristic_point @D*
+Facts: 	country_of_residence @E*
+Facts: 	tourists @F*(xsd:integer)
+Facts: 	overnight_stays @G*(xsd:integer)
+Facts: 	establishments @H*(xsd:integer)
+Facts: 	parcels @I*(xsd:integer)
+Facts: 	places @J*(xsd:integer)
+Facts: 	degree_of_occupied_parcels @K*(xsd:float)
+Facts: 	degree_of_occupied_parcels_on_weekends @L*(xsd:float)
+Facts: 	number_of_occupied_parcels @M*(xsd:integer)
+Facts: 	personel_employed @N*(xsd:integer)
+
+
+## Touristic Zone
+Individual: @A*(mm:prepend("Touristic_Zone_"))
+Types: Touristic_Zone
+Facts: 	year @B*(xsd:integer)
+Facts: 	month @C*(xsd:integer)
+Facts: 	country_of_residence @D*
+Facts: 	touristic_zone @E*
+Facts: 	tourists @F*(xsd:integer)
+Facts: 	overnight_stays @G*(xsd:integer)
+Facts: 	establishments @H*(xsd:integer)
+Facts: 	parcels @I*(xsd:integer)
+Facts: 	places @J*(xsd:integer)
+Facts: 	degree_of_occupied_parcels @K*(xsd:float)
+Facts: 	degree_of_occupied_parcels_on_weekends @L*(xsd:float)
+Facts: 	number_of_occupied_parcels @M*(xsd:integer)
+Facts: 	personel_employed @N*(xsd:integer)
